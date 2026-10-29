@@ -1,0 +1,11 @@
+Algorithm,Problem Size,Selected Features,Feature Reduction (%),Test Accuracy (%),Test Macro-F1 (%),Training Time (seconds),Prediction Time (seconds)
+Random Forest Baseline,All Features,561,0.0,92.57,92.41,4.33,0.12
+GA,Small,100,82.17,90.8,90.47,1.81,0.1
+GA,Medium,147,73.8,93.18,92.87,2.48,0.13
+GA,Large,196,65.06,92.84,92.55,2.94,0.12
+PSO,Small,100,82.17,91.82,91.52,1.8,0.09
+PSO,Medium,270,51.87,92.03,91.81,3.02,0.1
+PSO,Large,275,50.98,93.65,93.38,3.18,0.1
+ACO,Small,84,85.03,87.0,86.87,1.68,0.11
+ACO,Medium,125,77.72,91.96,91.61,2.13,0.07
+ACO,Large,150,73.26,92.53,92.34,2.43,0.1

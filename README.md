@@ -9,7 +9,6 @@
   <img src="assets/figures/project-overview.png" alt="Project overview" width="850">
 </p>
 
-> **ملاحظة:** الصورة أعلاه موضع مخصص للصورة التعريفية للمشروع. أضف الشكل إلى المسار `assets/figures/project-overview.png` أو احذف هذا الجزء إذا لم تكن الصورة متاحة.
 
 ## نبذة عن المشروع
 

@@ -270,55 +270,6 @@ FeatureRatio = \frac{Number\ of\ Selected\ Features}{561}
 | `stability-comparison.png` | متوسط النتائج والانحراف المعياري عبر Seeds | الاستقرار |
 | `runtime-comparison.png` | زمن التنفيذ لكل خوارزمية وحجم | مناقشة النتائج |
 
-### أمثلة لإدراج الأشكال في Markdown
-
-بعد إنشاء الصور وحفظها بالأسماء المقترحة، أزل التعليقات التوضيحية وأدرجها هكذا:
-
-```markdown
-![GA convergence](assets/figures/ga-convergence.png)
-
-![PSO convergence](assets/figures/pso-convergence.png)
-
-![ACO convergence](assets/figures/aco-convergence.png)
-
-![Test performance comparison](assets/figures/test-performance.png)
-```
-
-**الأشكال الأهم إذا أردت نسخة مختصرة:** مخطط سير العمل، منحنيات التقارب للخوارزميات الثلاث، مقارنة تقليل الخصائص، ومقارنة الأداء النهائي على Test.
-
-## هيكل المستودع المقترح
-
-```text
-HAR-Feature-Selection/
-│
-├── README.md
-├── data/
-│   └── README.md
-├── notebooks/
-│   ├── feature_selection_experiments.ipynb
-│   └── stability_analysis.ipynb
-├── src/
-│   ├── ga.py
-│   ├── pso.py
-│   ├── aco.py
-│   └── evaluation.py
-├── results/
-│   ├── validation_results.csv
-│   ├── test_results.csv
-│   └── stability_results.csv
-└── assets/
-    └── figures/
-        ├── project-overview.png
-        ├── optimization-workflow.png
-        ├── ga-convergence.png
-        ├── pso-convergence.png
-        ├── aco-convergence.png
-        ├── feature-reduction.png
-        ├── test-performance.png
-        └── stability-comparison.png
-```
-
-> هذا هيكل تنظيمي مقترح فقط؛ عدّل أسماء المجلدات والملفات لتطابق المحتويات الفعلية لمستودع GitHub. لا تضع ملفات البيانات إلا إذا كانت شروط ترخيص مجموعة البيانات تسمح بذلك.
 
 ## إعادة الإنتاج
 

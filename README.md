@@ -1,2 +1,0 @@
-# GA
-Artifical Algorithm 

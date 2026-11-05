@@ -251,25 +251,6 @@ FeatureRatio = \frac{Number\ of\ Selected\ Features}{561}
 
 لا توجد خوارزمية واحدة تتفوق في جميع الجوانب؛ فالاختيار يعتمد على الأولوية: جودة التصنيف، أو تقليل عدد الخصائص، أو زمن التنفيذ.
 
-## الأشكال المقترح إضافتها إلى المستودع
-
-ضع الصور داخل مجلد `assets/figures/`، واستخدم أسماء الملفات التالية لتظهر في README:
-
-| اسم الملف المقترح | محتوى الشكل | مكانه في README |
-|---|---|---|
-| `project-overview.png` | مخطط عام يوضح البيانات ← اختيار الخصائص ← الخوارزميات ← Random Forest ← التقييم | أعلى README |
-| `dataset-classes.png` | توزيع العينات على الأنشطة الستة | قسم مجموعة البيانات |
-| `optimization-workflow.png` | سير العمل وتقسيم Optimization وValidation وTest | المنهجية |
-| `binary-encoding.png` | مثال بصري للمتجه الثنائي واختيار الخصائص | صياغة المشكلة |
-| `ga-convergence.png` | منحنيات Fitness لـGA للأحجام الثلاثة | تقارب GA |
-| `pso-convergence.png` | منحنيات Fitness لـPSO للأحجام الثلاثة | تقارب PSO |
-| `aco-convergence.png` | منحنيات Fitness لـACO للأحجام الثلاثة | تقارب ACO |
-| `validation-comparison.png` | مقارنة Accuracy وMacro-F1 على Validation | النتائج |
-| `feature-reduction.png` | مقارنة عدد الخصائص أو نسبة التخفيض بين الخوارزميات | النتائج |
-| `test-performance.png` | مقارنة Test Accuracy وTest Macro-F1 مع Baseline | التقييم النهائي |
-| `stability-comparison.png` | متوسط النتائج والانحراف المعياري عبر Seeds | الاستقرار |
-| `runtime-comparison.png` | زمن التنفيذ لكل خوارزمية وحجم | مناقشة النتائج |
-
 
 ## إعادة الإنتاج
 
